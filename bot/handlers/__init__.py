@@ -1,7 +1,7 @@
 from aiogram import Router
 
 from .admin import router as router_admin
-from .starat_handlrrs import router as router_other
+from .start_handlers import router as router_other
 from .user import router as router_user
 
 router = Router(name=__name__)
